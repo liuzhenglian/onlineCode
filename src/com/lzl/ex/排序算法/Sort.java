@@ -97,7 +97,6 @@ public class Sort {
 
     //实现快速排序
     //快排的核心思想是按照一个切分元素对待排序数组进行划分，大于切分元素的元素在一边，小于切分元素的在另外一边
-
     //排序核心算法
     public static void sort(Comparable[] a){
         if(a == null) return;
