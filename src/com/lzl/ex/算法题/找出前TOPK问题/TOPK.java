@@ -10,7 +10,7 @@ import java.util.Map;
 public class TOPK {
     public static void main(String[] args) {
         String[] arr = new String[]{"1", "2", "1", "2", "4"};
-        printTopKAndRank(arr,1);
+        printTopKAndRank(arr,2);
     }
     static public void printTopKAndRank(String[] arr, int topK){
         if(arr == null || topK < 1) return;
